@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Leaf Agencies</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+    </head>
+    
+<body>
+    <div class="wallpaper-div"></div>
+    <div class="container">
+        <div class="top-banner-div"></div>
+        <div class="login-div" id="login-div">
+            <h2>Welcome to "Leaf Agencies"</h2>
+            <p class="login-text">Please login using your phone number to access training material</p>
+            <form id="login-form" onsubmit="checkPhoneNumber(event)">
+                <input type="tel" id="phone" name="phone" placeholder="e.g. 092 325 6413" autocomplete="off">
+                <span id="message"></span>
+                <button type="submit">Start</button>
+            </form>
+        </div>
+        <div class="language-buttons">
+            <button class="language-button selected">English</button>
+            <button class="language-button">Afrikaans</button>
+            <button class="language-button">Xhosa</button>
+        </div>
+        
+        <div class="video-div" id="video-div">
+            <video id="video2" controls>
+                <source src="WhatsApp Video 2024-04-15 at 15.18.49_cf1f98eb.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="quiz-div">
+            <h3>Video Quiz</h3>
+            <div id="quiz"><a href="https://forms.gle/ygadse7pVfjRUUnC9">Please answer this quiz based on the informational video.</a></div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
